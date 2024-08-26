@@ -1,0 +1,102 @@
+.artesanias {background-image: url(vitro.jpg);
+    background-color: rgba(90, 235, 235, 0.918);
+    text-align: center;
+display: flex;
+flex-direction: column;
+} 
+.artesanias :hover{background-color: brown;
+        color: azure;
+        cursor: pointer;
+        transition: 400ms;
+
+}
+/*color del fondo*/
+
+h1{font-family: 'Times New Roman', Times, serif;
+font-size: 30px;color: rgb(209, 41, 247);} /*color de la letra*/
+
+h2{font-family: 'Lucida Sans';font: size 22px;color: blue;}
+
+ol{font-family: cursive;font-size: 20px;
+color: rgb(108, 10, 70);} /*color de la lista*/
+
+ul{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px;
+color: rgba(8, 95, 60, 0.912);}/*color de lista*/
+
+h4{font: optional;font-size: 25px; color: yellow;} /*color de titulo de contacto*/
+
+.compras {list-style-type: none;
+          width: 300px;
+         padding: 1 em; border:  1px,solid black; 
+         border-radius: 2; 
+         background-color: blueviolet;
+         display: grid;
+         flex-direction: column ;
+         justify-content: flex-start;}
+
+.productos {padding: 1em;
+            width: 300px;
+           background-color: rgb(228, 140, 140);
+           border: 1px,solid black;
+           }
+
+.pormayor {padding: 1em; 
+            width: 300px;
+           border: 1px, solid black;
+           border-radius: 2;
+           background-color: azure;}
+
+.porunidad {padding-left: 1em;
+            width: 300px;
+            border: 1px,solid black;
+            background-color: coral;}
+        
+
+.liquidacion {padding: 1em;
+             width: 300px;
+             border: 1px, solid black;
+             border-radius: 4;
+             background-color: cornflowerblue;}
+
+.contactos {padding: 1em;
+          width: 300px;
+          border: 1px, double black;
+          border-radius:2px ;
+          background-color: beige;
+          display: grid;
+          flex-direction: column; 
+        justify-content: flex-end;}
+
+.horarios {padding: 1em;
+           width:300px;
+          border-radius: 2 px;
+          border: 2px, solid black;
+          background-color: darksalmon;}
+
+.envios {padding: 1em;
+        width: 300px;
+        border: 1px,solid black;
+        border-radius: 2px;
+        background-color: darkgrey;}
+
+.datos {padding: 1rem;
+        width: 300px;
+        border: 1px, solid black;
+        border-radius: 4px;
+        background-color: darkseagreen;}
+
+ footer{display: flex;
+        background-color: rgb(238, 151, 221);
+        height: 100%;
+        } 
+.datos1 {padding: 1rem;
+        display: grid;
+        background-color: rgb(244, 248, 248);
+        border-radius: 1px;
+        border: 2px,solid black;
+        display: grid;
+        flex-direction: column;
+}   
+@media (min-width: 992px) {
+    .artesanias{flex-direction: row;}
+}
